@@ -13,6 +13,7 @@ import {
 import { MonoText } from '../components/StyledText';
 
 export default function HomeScreen() {
+
   return (
     <View style={styles.container}>
       <ScrollView
@@ -40,7 +41,7 @@ export default function HomeScreen() {
           </View>
 
           <Text style={styles.getStartedText}>
-            Change this text and your app will automatically reload. This is the best app I've ever seen!!
+            Change this text and your app will automatically reload. This is the best app I've ever seen!! And it gets even better that I can keep using this framework!
           </Text>
         </View>
 
